@@ -117,7 +117,7 @@ charge2 = OrbitingCharge(R, beta*c, phase=np.pi, pos_charge=False)
 
 field = MovingChargesField([charge1, charge2])
 
-GRID = 10
+GRID = 20
 L = 6e-9
 
 x = np.linspace(-L,L,GRID)

@@ -103,7 +103,7 @@ beta = 0.99
 charge = OrbittingCharge(True,0,R,beta*c)
 field = MovingChargesField(charge)
 
-GRID = 10
+GRID = 20
 L = 6e-9
 
 x = np.linspace(-L,L,GRID)
